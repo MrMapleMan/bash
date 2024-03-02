@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 echo $@
 echo $0
@@ -7,7 +7,7 @@ echo ${@:0:20}
 
 echo "" > /tmp/txt-test
 
-for i in {0..99};
+for i in {0..15};
 do
   printf "%03d\n" $i >> /tmp/txt-test;
 done;
